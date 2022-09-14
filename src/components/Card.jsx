@@ -3,7 +3,7 @@ import React from "react";
 console.clear();
 
 export default function Card({ pokemonInfo }) {
-  const name = pokemonInfo.
+  const name = pokemonInfo.name;
   const skills = pokemonInfo.abilities;
 
   return (
